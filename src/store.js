@@ -50,7 +50,7 @@ const initialState = {
     {
       name: "TEAM",
       img: "https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png",
-    },https://github.com/LorenaRuiz0717/modular/src/assets/logosMarcas/Asus.jpg
+    },
     {
       name: "TECNO",
       img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/TECNO.png"
