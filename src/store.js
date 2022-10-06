@@ -1,11 +1,11 @@
 import { createStore } from "redux";
-// import producto from './assets/icons/lupa1.png'
+// import producto from "./assets/icons/lupa1.png"
 
 const initialState = {
   brands: [
     {
       name: "ASUS",
-      img:'http://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/Asus.jpg',
+      img:"https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/ASUS.jpg",
     },
     {
       name: "GENERICA",
@@ -13,51 +13,51 @@ const initialState = {
     },
     {
       name: "HUAWEI",
-      img: 'http://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/HUAWEI.jpg',
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/HUAWEI.jpg",
     },
     {
       name: "IPHONE",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/IPHONE.png"
     },
     {
       name: "LG",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/LG.jpg"
     },
     {
       name: "MOTOROLA",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/MOTOROLA.jpg"
     },
     {
       name: "NOKIA",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/NOKIA.jpg"
     },
     {
       name: "OPPO",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/OPPO.jpg"
     },
     {
       name: "REALME",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/REALME.png"
     },
     {
       name: "SAMSUNG",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/SAMSUNG.jpg"
     },
     {
       name: "SONY",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/SONY.jpg"
     },
     {
       name: "TEAM",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png",
     },
     {
       name: "TECNO",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/TECNO.png"
     },
     {
       name: "XIAOMI",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img:"https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/XIAOMI.jpg"
     },
   ],
   category:[{
@@ -80,7 +80,7 @@ const initialState = {
     {
       id: 1,
       name: "estuches",
-      // imgLink:'../../assets/products/umbrella1.png',
+      // imgLink:"../../assets/products/umbrella1.png",
       img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
       // img:JSON.stringify({producto}),
       description: "Descripción del producto. Este es un texto simulado",
@@ -114,7 +114,7 @@ const initialState = {
     {
       id: 1,
       name: "celular",
-      // imgLink:'../../assets/products/umbrella1.png',
+      // imgLink:"../../assets/products/umbrella1.png",
       img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
       // img:JSON.stringify({producto}),
       description: "Descripción del producto. Este es un texto simulado",
@@ -147,7 +147,7 @@ const initialState = {
   audifonos: [{
     id: 1,
     name: "estuches",
-    // imgLink:'../../assets/products/umbrella1.png',
+    // imgLink:"../../assets/products/umbrella1.png",
     img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
     // img:JSON.stringify({producto}),
     description: "Descripción del producto. Este es un texto simulado",
@@ -181,7 +181,7 @@ const initialState = {
   {
     id: 1,
     name: "ipad",
-    // imgLink:'../../assets/products/umbrella1.png',
+    // imgLink:"../../assets/products/umbrella1.png",
     img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
     // img:JSON.stringify({producto}),
     description: "Descripción del producto. Este es un texto simulado",
