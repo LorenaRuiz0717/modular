@@ -5,15 +5,15 @@ const initialState = {
   brands: [
     {
       name: "ASUS",
-      img: "https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png",
+      img:'http://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/Asus.jpg',
     },
     {
       name: "GENERICA",
-      img:'http://lorenaruiz0717.github.io/modular/src/assets/logosMarcas/Asus.jpg',
+      img:"https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png",
     },
     {
       name: "HUAWEI",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img: 'http://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/HUAWEI.jpg',
     },
     {
       name: "IPHONE",
