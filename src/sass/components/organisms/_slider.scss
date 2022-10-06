@@ -1,0 +1,20 @@
+.carousel-inner{
+    z-index: -1;
+}
+
+.imgSlider{
+    min-width: 1350px !important;
+    height: auto;
+    // width: 100px;
+// background-size: cover;
+background-repeat: no-repeat;
+// width: 100%;
+}
+
+.carousel.pointer-event{
+    position: absolute;
+}
+
+.w-auto {
+    width: 200px!important;
+}

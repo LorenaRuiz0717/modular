@@ -1,0 +1,35 @@
+.containerBanner{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBanner{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 800px;
+
+   
+    h2{
+        color: var(--white);
+        font-size: 52px;
+        width: 700px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        text-shadow: 2px 2px #544c4c;
+
+    }
+    button{
+       align-self: center;
+       justify-self: center;
+    }
+}
+
+// .imgSlider{
+//     height: 552px;
+// }

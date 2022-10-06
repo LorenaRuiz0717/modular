@@ -1,0 +1,25 @@
+.containerNewsLetter {
+//   display: flex;
+//   flex-direction: column;
+  margin-top: 8%;
+  padding: 5% 0;
+  text-align: center;
+  color: var(--black);
+  box-shadow: 0px 3px 3px var(--gray);
+  h4{
+    font-weight: 100;
+    color:var(--gray);
+    text-transform: uppercase;
+  }
+  h2{
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  p{
+    font-size: 10px;
+  }
+}
+
+
+
+

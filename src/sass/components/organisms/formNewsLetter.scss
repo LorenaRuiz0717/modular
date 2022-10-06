@@ -1,0 +1,31 @@
+.formNewsletter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  input {
+    width: 420px;
+    height: 40px;
+  }
+}
+.containerInputEmail{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.buttonSubmit {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 380px;
+}
+
+.messangeError {
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
