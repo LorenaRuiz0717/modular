@@ -9,7 +9,7 @@ const initialState = {
     },
     {
       name: "GENERICA",
-      img: "https://i.pinimg.com/564x/56/00/d1/5600d1b886e22ce1e0d679d5f2d06b95.jpg",
+      img:'http://lorenaruiz0717.github.io/modular/src/assets/logosMarcas/Asus.jpg',
     },
     {
       name: "HUAWEI",
