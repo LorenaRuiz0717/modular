@@ -1,0 +1,58 @@
+{"brands":[
+      {
+        "name": "ASUS",
+        "img":"public/logosMarcas/ASUS.jpg"
+      },
+      {
+        "name": "GENERICA",
+        "img":"https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png"
+      },
+      {
+        "name": "HUAWEI",
+        "img": "/logosMarcas/HUAWEI.jpg"
+      },
+      {
+        "name": "IPHONE",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/IPHONE.png"
+      },
+      {
+        "name": "LG",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/LG.jpg"
+      },
+      {
+        "name": "MOTOROLA",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/MOTOROLA.jpg"
+      },
+      {
+        "name": "NOKIA",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/NOKIA.jpg"
+      },
+      {
+        "name": "OPPO",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/OPPO.jpg"
+      },
+      {
+        "name": "REALME",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/REALME.png"
+      },
+      {
+        "name": "SAMSUNG",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/SAMSUNG.jpg"
+      },
+      {
+        "name": "SONY",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/SONY.jpg"
+      },
+      {
+        "name": "TEAM",
+        "img": "https://lorenaruiz0717.github.io/Vs0.2-CardValidation-BOG002/src/IMG/galeria/producto8.png"
+      },
+      {
+        "name": "TECNO",
+        "img": "https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/TECNO.png"
+      },
+      {
+        "name": "XIAOMI",
+        "img":"https://lorenaruiz0717.github.io/modular/modular-selling/src/assets/logosMarcas/XIAOMI.jpg"
+      }
+]}

@@ -1,44 +1,61 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 import { connect } from "react-redux";
 
-const SliderBrands=({brands})=>{
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-  }
-};
 
+
+const SliderBrands=({brands})=>{
+   
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
 const printBrands=brands.map((brand,index)=>(
 
-  <div className="imgBrand"key={index}>
+  <div className="containerImgBrand"key={index}>
   <img
-    className="ImgProduct"
+    className="imgBrand"
     src={brand.img}
     alt={brand.name}
     ></img>
-  </div>
-
-  
+  </div>  
 ));
 return(
 
   <div className="containerSliderBrands">
-   <Carousel responsive={responsive} >
+   <Carousel
+    swipeable={false}
+    draggable={false}
+    showDots={false}
+    responsive={responsive}
+    ssr={true} // means to render carousel on server-side.
+    infinite={true}
+    autoPlay={true}
+    // {this.props.deviceType !== "mobile" ? true : false}
+    autoPlaySpeed={1000}
+    keyBoardControl={false}
+    customTransition="all .5"
+    transitionDuration={500}
+    containerClass="carousel-container"
+    removeArrowOnDeviceType={["desktop", "mobile", "tablet"]}
+    // deviceType={this.props.deviceType}
+    dotListClass="custom-dot-list-style"
+    itemClass="carousel-item-padding-40-px" 
+    >
  {printBrands}
  </Carousel>
  </div>

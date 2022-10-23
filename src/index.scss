@@ -8,6 +8,7 @@
 // Components
 @use './sass/components/templates/navbar';
 @use './sass/components/templates/banner';
+@use './sass/components/templates/categoriesProducts';
 @use './sass/components/templates/productList';
 @use './sass/components/templates/sectionProduct';
 @use './sass/components/templates/galleryInstagram';
@@ -21,6 +22,3 @@
 @use './sass/components/organisms/slider';
 @use './sass/components/organisms/sliderBrands';
 
-// body{
-//   background-color: red;
-// }

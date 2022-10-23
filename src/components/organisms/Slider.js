@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import imgpromo1 from "../../assets/products/banner.png"
 
 
@@ -12,13 +12,13 @@ const Slider=()=>{
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={imgpromo1} className="imgSlider d-block w-auto" alt="imgcarrusel"/>
+      <img src="https://i.pinimg.com/564x/0d/c5/0f/0dc50f1e23412b6106fdfafe717890b8.jpg" className="imgSlider d-block w-100" alt="imgcarrusel"/>
     </div>
     <div className="carousel-item">
-      <img src={imgpromo1} className="imgSlider w-auto" alt="imgcarrusel"/>
+      <img src="https://i.pinimg.com/564x/0d/c5/0f/0dc50f1e23412b6106fdfafe717890b8.jpg"className="imgSlider w-100" alt="imgcarrusel"/>
     </div>
     <div className="carousel-item">
-      <img src={imgpromo1} className="imgSlider w-auto" alt="imgcarrusel"/>
+      <img src="https://i.pinimg.com/564x/0d/c5/0f/0dc50f1e23412b6106fdfafe717890b8.jpg"className="imgSlider w-100" alt="imgcarrusel"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

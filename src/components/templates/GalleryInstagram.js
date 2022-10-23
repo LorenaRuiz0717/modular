@@ -3,7 +3,9 @@ import { connect } from "react-redux";
 
 const GalleryInstagram = ({ galleryInstagram }) => {
   const printImg = galleryInstagram.map((photo) => (
-    <img className="imgGallery" src={photo.img} alt="img" key={photo.id}></img>
+    <img
+     className="imgGallery" 
+     src={photo.img} alt="img" key={photo.id}></img>
   ));
   return (
     <div className="containerGallery">
